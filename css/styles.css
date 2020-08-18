@@ -157,16 +157,17 @@ address .link:focus {
 }
 
 /* Страница портфолио */
-.filter .link {
+.filter .btn {
   font-size: 16px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
+  border: none;
 }
 
-.filter .link:hover,
-.filter .link:focus {
+.filter .btn:hover,
+.filter .btn:focus {
   color: var(--accent-white-color);
   background-color: var(--accent-blue-color);
 }
@@ -179,3 +180,13 @@ address .link:focus {
   color: var(--header-text-color);
 }
 
+/*   <section>
+        <h1 class="hidden-title">Выполненные проекты</h1>
+          <ul class="list filter">
+            <li><button type="button">Все</button></li>
+            <li><button type="button">Веб-сайты</button></li>
+            <li><button type="button">Приложения</button> </li>
+            <li><button type="button">Дизайн</button></li>
+            <li><button type="button">Маркетинг</button></li>
+          </ul>
+       </section> */
