@@ -2,15 +2,15 @@
 
 :root {
   /* Цвета текста */
-  --primary-text-color:  #757575;
+  --primary-text-color: #757575;
   --header-text-color: #212121;
   --accent-blue-color: #2196f3;
   --accent-white-color: #ffffff;
   --accent-black-color: #000000;
   --accent-rgba-color: rgba(255, 255, 255, 0.6);
   /* Цвета фона */
-  --primary-bck-color:#ffffff;
-  --secondary-bck-color:#2f303a;
+  --primary-bck-color: #ffffff;
+  --secondary-bck-color: #2f303a;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
   font-weight: 500;
   line-height: 1;
   letter-spacing: 0.02em;
-  color: var(--header-text-color)
+  color: var(--header-text-color);
 }
 
 .site-nav .link:hover,
@@ -72,9 +72,9 @@ body {
 }
 
 .site-nav .link.current {
-  color: var(--accent-blue-color)
-  }
-   
+  color: var(--accent-blue-color);
+}
+
 /* Контакты */
 address .link {
   font-weight: 500;
@@ -154,6 +154,7 @@ address .link:focus {
 
 .wrap-footer .link {
   color: var(--accent-rgba-color);
+  font-weight: 400;
 }
 
 /* Страница портфолио */
@@ -172,7 +173,7 @@ address .link:focus {
   color: var(--accent-white-color);
   background-color: var(--accent-blue-color);
 }
-  
+
 .portfolio .title-portfolio {
   font-size: 18px;
   font-weight: 700;
@@ -180,4 +181,3 @@ address .link:focus {
   letter-spacing: 0.06em;
   color: var(--header-text-color);
 }
-
