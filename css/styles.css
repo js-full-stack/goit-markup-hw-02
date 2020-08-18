@@ -1,4 +1,14 @@
 /* Общее оформление контента */
+
+:root {
+  --primary-text-color:  #757575;
+  --header-text-color: #212121;
+  --accent-blue-color: #2196f3;
+  --accent-white-color: #ffffff;
+  --accent-black-color: #000000;
+  --accent-rgba-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -9,18 +19,18 @@ body {
   font-weight: 700;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--header-text-color));
 }
 
 .text {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .white-text {
-  color: #ffffff;
+  color: var(--accent-white-color);
 }
 
 .list {
@@ -36,11 +46,11 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: var(--accent-black-color);
 }
 
-.logo-web {
-  color: #2196f3;
+.accent-color {
+  color: var(--accent-blue-color);
 }
 
 
@@ -49,23 +59,23 @@ body {
   text-decoration: none;
   font-weight: 500;
   line-height: 16px;
-  color: #212121;
+  color: var(--header-text-color)
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-blue-color);
 }
 
 /* Контакты */
 address .link {
   font-weight: 500;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 address .link:hover,
 address .link:focus {
-  color: #2196f3;
+  color: var(--accent-blue-color);
 }
 
 /* Герой */
@@ -85,7 +95,7 @@ address .link:focus {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: var(--accent-white-color);
 }
 
 /* Кнопка под блоком-героем */
@@ -99,7 +109,6 @@ address .link:focus {
   line-height: 30px;
   font-weight: 700;
   font-size: 16px;
-  color: #ffffff;
 }
 
 /* Наши преимущества */
@@ -120,7 +129,7 @@ address .link:focus {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color: #212121;
+  color: var(--header-text-color);
   /* text-align: center; */
 }
 
@@ -137,5 +146,5 @@ address .link:focus {
 }
 
 .wrap-footer .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--accent-rgba-color);
 }
