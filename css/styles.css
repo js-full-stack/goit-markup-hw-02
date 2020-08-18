@@ -163,6 +163,7 @@ address .link:focus {
   line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
+  background-color: var(--primary-bck-color);
   border: none;
 }
 
