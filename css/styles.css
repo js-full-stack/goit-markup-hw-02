@@ -11,12 +11,14 @@
   /* Цвета фона */
   --primary-bck-color: #ffffff;
   --secondary-bck-color: #2f303a;
+  /* Стили шрифтов */
+  --letter: 0.03em;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--primary-bck-color);
-  letter-spacing: 0.03em;
+  letter-spacing: var(--letter);
 }
 
 .header {
@@ -70,7 +72,6 @@ body {
 }
 
 .contacts .link {
-  font-weight: 500;
   color: var(--primary-text-color);
 }
 
@@ -91,12 +92,14 @@ body {
 
 .header-hero {
   position: absolute;
-  width: 696px;
-  height: 120px;
   left: 452px;
   top: 280px;
+  width: 696px;
+  height: 120px;
+
   font-size: 44px;
   font-weight: 900;
+  line-height: 1.36;
   text-transform: uppercase;
   text-align: center;
   color: var(--accent-white-color);
@@ -110,13 +113,16 @@ body {
 /* Кнопка под блоком-героем */
 .button {
   position: absolute;
-  width: 200px;
-  height: 50px;
   left: 700px;
   top: 430px;
-  background-color: var(--accent-blue-color);
+  width: 200px;
+  height: 50px;
+
+  font-family: inherit;
+  font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
+  background-color: var(--accent-blue-color);
 }
 
 /* Наши преимущества */
@@ -156,6 +162,8 @@ body {
 
 /* Страница портфолио */
 .filter .btn {
+  font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
   color: var(--header-text-color);
@@ -175,4 +183,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-text-color);
+}
+
+.text-portfolio {
+  line-height: 1.88;
+  color: var(--primary-text-color);
 }
